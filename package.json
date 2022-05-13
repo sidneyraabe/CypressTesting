@@ -1,0 +1,23 @@
+{
+  "name": "cypresstesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cytest": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidneyraabe/CypressTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidneyraabe/CypressTesting/issues"
+  },
+  "homepage": "https://github.com/sidneyraabe/CypressTesting#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
