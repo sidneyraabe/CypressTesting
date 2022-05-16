@@ -19,5 +19,8 @@
   "homepage": "https://github.com/sidneyraabe/CypressTesting#readme",
   "devDependencies": {
     "cypress": "^9.6.1"
+  },
+  "dependencies": {
+    "cy-view": "^1.0.11"
   }
 }
