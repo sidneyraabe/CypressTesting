@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cytest": "cypress open"
+    "cytest": "cypress open",
+    "cytestm": "cypress open --config viewportWidth=320,viewportHeight=480"
   },
   "repository": {
     "type": "git",

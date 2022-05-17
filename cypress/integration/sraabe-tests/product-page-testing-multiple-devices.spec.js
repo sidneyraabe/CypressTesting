@@ -33,4 +33,3 @@ pageTests(urls, () => {
         })
     });
 });
-//npm run cytest

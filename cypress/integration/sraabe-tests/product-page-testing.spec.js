@@ -12,12 +12,10 @@ describe('ProductPageTesting', () => {
     })
 
     it('Has visible reviews section', () => {
-        cy.get('#reviews-heading').contains('Customer Reviews').should('be.visible');
+        cy.get('#reviews-heading').should('be.visible');
     })
 
     it('Has a visible featured review', () => {
         cy.get('.sr-only').contains('Recent reviews');     
     })
 });
-
-//npm run cytest
